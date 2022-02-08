@@ -1,0 +1,14 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "crawls the web and finds the world occurance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek K L",
+  "license": "ISC",
+  "dependencies": {
+    "crawler": "^1.3.0"
+  }
+}
