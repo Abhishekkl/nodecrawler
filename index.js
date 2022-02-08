@@ -6,8 +6,10 @@ const words = (argv[3].toLowerCase().split('=')[1]).split(',')
 
 const findWordCount = (body) => {
     let searchedobj = {}
-    body.map((val)=>{
-        if(words.includes(val.toLowerCase())){
+    let val;
+    body.map((e)=>{
+        val = e.toLowerCase()
+        if(words.includes(val)){
             searchedobj[val] = searchedobj[val] ? ++searchedobj[val] : 1
         }
     })
